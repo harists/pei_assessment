@@ -1,0 +1,10 @@
+dataset,rule_type,column
+products,UNIQUENESS_CHECK,product_id
+products,NULL_CHECK,product_id
+customers,UNIQUENESS_CHECK,customer_id
+customers,NULL_CHECK,customer_id
+orders,NULL_CHECK,customer_id
+orders,NULL_CHECK,product_id
+orders,NULL_CHECK,order_id
+orders,NULL_CHECK,row_id
+orders,UNIQUENESS_CHECK,row_id
